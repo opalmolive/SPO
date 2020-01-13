@@ -1,7 +1,7 @@
 import folium 
 import pandas 
 
-data = pandas.read_csv("datamap.csv")
+data = pandas.read_csv("data.csv")
 map = folium.Map(location = [60, 30.2], zoom_start = 12)
 
 x = data.iloc[:, 2]
