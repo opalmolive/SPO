@@ -2,8 +2,8 @@
 gnome-terminal --window -- roscore
 sleep 2
 gnome-terminal --tab -- rosrun turtlesim turtlesim_node
-
 sleep 2
+#start 243944
 rosservice call /kill turtle1
 
 #2
