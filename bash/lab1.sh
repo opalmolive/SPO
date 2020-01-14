@@ -1,4 +1,4 @@
-#!/bin/vcbash
+#!/bin/bash
 echo "filename; type; size; date; duration">./result.xls
 #создание функции
 files()
